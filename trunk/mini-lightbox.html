@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>mini lightbox</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="mini-lightbox/mini-lightbox.css" type="text/css" id="basic-css" />
+	<script type="text/javascript" src="mini-lightbox/mini-lightbox.js"></script>
+<style type="text/css">
+html {
+	margin: 0;
+	pading: 0;
+}
+body {
+	font-family: 'Trebuchet MS', arial, helvetica, sans-serif;
+	width: 80%;
+	margin: 1em auto;
+	background: #fff;
+	color: #333;
+}
+h1 {
+	border-bottom: solid #000 1px;
+}
+h3 {
+	font-weight: normal;
+	border-bottom: dotted #000 1px;
+}
+code {
+	color: #000;
+	background: #eee;
+}
+pre {
+	line-height: 160%;
+}
+ul {
+	margin-bottom: 2em; 
+}
+#footer {
+	padding: .5em 0;
+	border-top: solid #333 1px;
+	text-align: right;
+	font-size: small;
+}
+</style>
+</head>
+<body>
+
+	<h1>Mini-LightBox</h1>
+	<p>
+		<strong>Mini-LightBox</strong> es un script unobtrusivo ligero y compacto para abrir ventanas modales 
+		de imagenes superpuestas sin la necesidad de ventanas adicionales.
+		<br />
+		Este script será tu solución si estas buscando una alternativa al Lightbox JS de Lokesh Dhakar que sea compacta y simple,
+		que no dependa de ningún tipo de framework pesado o libreria externa y no necesitas de efectos y transiciones, simplemente
+		una ventana modal para mostrar las imagenes de tu sitio web.
+	</p>	
+
+	<h3>Ejemplos</h3>
+	<ul>
+		<li><a rel="mini-lightbox" href="test-image.jpg" title="Lorem ipsum dolor sit amet. This is just a simple test">Texto e imagen local de ruta relativa</a></li>
+		<li><a rel="mini-lightbox" href="test-image.jpg">Imagen local sin pie de foto</a></li>
+		<li><a rel="mini-lightbox" href="http://desizntech.info/wp-content/uploads/2009/08/web_design.jpg" title="Imagen remota">Carga de imagen remota</a></li>
+		<li><a rel="mini-lightbox" href="http://www.kawapaper.com/d/3926-3/Kawapaper_Landscape_0000021_1024x768.jpg">Carga de imagen remota sin atributo title</a></li>
+		<li><a rel="mini-lightbox" href="http://www.google.com/press/images/logos/google.jpg">Imagen remota con ruta absoluta</a></li>
+		<li><a rel="mini-lightbox" href="http://www.google.com/press/images/gallery/photo8b.jpg">Ruta absoluta en el href de la imagen. Ejemplo #01 (http://www.google.com/press/images/gallery/photo8b.jpg)</a></li>
+		<li><a rel="mini-lightbox" href="http://www.google.com/press/images/gallery/photo8.jpg">Ruta absoluta en el href de la imagen. Ejemplo #02 (http://www.google.com/press/images/gallery/photo8.jpg)</a></li>
+	</ul>
+		
+
+	<h3>Como usarlo</h3>
+		<p>1. Incluye las referencias a mini-lightbox.js y mini-ligthbox.css dentro del <code>&lt;head&gt;</code> de tu página.</p>
+		<pre><code>&lt;script type="text/javascript" src="mini-lightbox/mini-lightbox.js"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" href="mini-lightbox/mini-lightbox.css" type="text/css" media="screen" /&gt;</code></pre>
+		
+		<p>2. Añade el atributo <code>rel="mini-lightbox"</code> a las etiquetas de los enlaces en los que quieras activar el script. 
+		Puedes tambien usar el atributo title del enlace para mostrar un pie de foto textual en la imagen.</p>
+		<pre><code>&lt;a href="images/image-1.jpg" rel="mini-lightbox" title="my caption"&gt;image #1&lt;/a&gt;</code></pre>
+	</div>	
+
+		
+	<h3>Descarga</h3>
+	<ul>
+		<li><a href="http://code.google.com/p/mini-lightbox/downloads/list" title="Mini LightBox">Mini-LightBox</a></li>
+	</ul>
+
+	<div id="footer"><p>Jorge Moreno (c) 2011</p></div>
+		
+</body>
+</html>
