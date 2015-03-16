@@ -1,0 +1,2 @@
+Unobtrusive compact and lightweight modal window script.
+Lightbox alternative for those who want a no framework dependant, no effects & no fancy transitions windows, just a simple lightbox image window.
